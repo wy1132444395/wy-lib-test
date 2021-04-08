@@ -1,0 +1,21 @@
+{
+    "name": "wy/test-lib",
+    "description": "this is my test composer org",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "wy",
+            "email": "1132444395@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "src/lib"
+        }
+    },
+    "minimum-stability": "dev"
+}
